@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link " href="index.html">IsTriangle</a></li>
+            <li class="list-item-inline"><a class="link" href="hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-item-inline"><a class="link" href="area.html">Area</a></li>
+            <li class="list-item-inline"><a class="link link-active" href="quiz.html">quiz</a></li>
+        </ul>
+    </nav>
+    <main id="container">
+        <form id="quiz-form">
+            <div class="question-container">
+                <p>1) In ΔLMN, ∠L = 50° and ∠N = 60°, If ΔLMN ~ ΔPQR, then find ∠Q</p>
+                <label><input type="radio" name="question-1" value="45cm">50cm</label>
+                <label><input type="radio" name="question-1" value="70cm">70cm</label>
+                <label><input type="radio" name="question-1" value="60cm">60cm</label>
+                <label><input type="radio" name="question-1" value="90cm">90cm</label>
+            </div>
+            <div class="question-container">
+                <p>2) Which of the following triangles have the same side lengths?</p>
+                <label><input type="radio" name="question-2" value="Scalene">Scalene</label>
+                <label><input type="radio" name="question-2" value="Isosceles">Isosceles</label>
+                <label><input type="radio" name="question-2" value="Equilateral">Equilateral</label>
+                <label><input type="radio" name="question-2" value="None of these">None of these</label>
+            </div>
+            <div class="question-container">
+                <p>3) The diagonals of a rhombus are 16 cm and 12 cm, in length. The side of rhombus in length is</p>
+                <label><input type="radio" name="question-3" value="10cm">10cm</label>
+                <label><input type="radio" name="question-3" value="20cm">20cm</label>
+                <label><input type="radio" name="question-3" value="5cm">5cm</label>
+                <label><input type="radio" name="question-3" value="15cm">15cm</label>
+            </div>
+            <div class="question-container">
+                <p>4) In ABC, DE || AB. If CD = 3 cm, EC = 4 cm, BE = 6 cm, then DA is equal to</p>
+                <label><input type="radio" name="question-4" value="7cm">7cm</label>
+                <label><input type="radio" name="question-4" value="3cm">3cm</label>
+                <label><input type="radio" name="question-4" value="6.5cm">6.5cm</label>
+                <label><input type="radio" name="question-4" value="4.5cm">4.5cm</label>
+            </div>
+            <div class="question-container">
+                <p>5) If ΔABC is similar to ΔDEF such that 2 AB = DE and BC = 8 cm then EF is equal to.</p>
+                <label><input type="radio" name="question-5" value="9cm">9cm</label>
+                <label><input type="radio" name="question-5" value="11cm">11cm</label>
+                <label><input type="radio" name="question-5" value="16cm">16cm</label>
+                <label><input type="radio" name="question-5" value="9.6cm">9.6cm</label>
+            </div>
+            <div class="question-container">
+                <p>6) In ΔABC, AB = 6 cm and DE || BC such that AE = 14 AC then the length of AD is</p>
+                <label><input type="radio" name="question-6" value="11cm">11cm</label>
+                <label><input type="radio" name="question-6" value="1.5cm">1.5cm</label>
+                <label><input type="radio" name="question-6" value="10cm">10cm</label>
+                <label><input type="radio" name="question-6" value="6cm">6cm</label>
+            </div>
+
+            <button class="btn" id="submit-btn">Submit</button>
+        </form>
+        <div id="displayOutput">the output will show here</div>
+    </main>
+    <script src="Script/quiz.js"></script>
+</body>
+
+</html>
